@@ -14,6 +14,10 @@
 	background-color: black;
 }
 
+.d-lg {
+	display: none;
+}
+
 .neo-item:nth-child(1) {
 	background-color: #d0d9d8;
 	grid-area: 1 / 1 / 2 / 3;
@@ -218,5 +222,126 @@
 	.neo-item:nth-child(20) {
 		background-color: #d1d1d1;
 		grid-area: 9 / 4 / 10 / 8;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.d-lg {
+		display: block !important;
+	}
+
+	.neo-grid {
+		grid: repeat(7, 1fr) / repeat(11, 1fr);
+		gap: 2vmin;
+	}
+
+	.neo-item:nth-child(1) {
+		background-color: #d0d9d8;
+		grid-area: 1 / 1 / 2 / 3;
+	}
+
+	.neo-item:nth-child(2) {
+		background-color: #e4ded2;
+		grid-area: 1 / 3 / 2 / 6;
+	}
+
+	.neo-item:nth-child(3) {
+		background-color: #fdfdf1;
+		grid-area: 1 / 8 / 7 / 9;
+	}
+
+	.neo-item:nth-child(4) {
+		background-color: #fed26b;
+		grid-area: 1 / 6 / 2 / 8;
+	}
+
+	.neo-item:nth-child(5) {
+		background-color: #fefeed;
+		grid-area: 1 / 9 / 3 / 10;
+	}
+
+	.neo-item:nth-child(6) {
+		background-color: #fed26b;
+		grid-area: 1 / 10 / 3 / 12;
+	}
+
+	.neo-item:nth-child(7) {
+		background-color: #c6c4c5;
+		grid-area: 2 / 5 / 5 / 6;
+	}
+
+	.neo-item:nth-child(8) {
+		background-color: #df371e;
+		grid-area: 2 / 1 / 6 / 5;
+	}
+
+	.neo-item:nth-child(9) {
+		background-color: #e6f0e4;
+		grid-area: 2 / 6 / 4 / 7;
+	}
+
+	.neo-item:nth-child(10) {
+		background-color: #e3e5d0;
+		grid-area: 2 / 7 / 4 / 8;
+	}
+
+	.neo-item:nth-child(11) {
+		background-color: #fafce8;
+		grid-area: 5 / 5 / 6 / 7;
+	}
+
+	.neo-item:nth-child(12) {
+		background-color: #18090e;
+		grid-area: 3 / 9 / 5 / 11;
+	}
+
+	.neo-item:nth-child(13) {
+		background-color: #b6bab9;
+		grid-area: 4 / 6 / 5 / 8;
+	}
+
+	.neo-item:nth-child(14) {
+		background-color: #e4e6de;
+		grid-area: 5 / 9 / 6 / 11;
+	}
+
+	.neo-item:nth-child(15) {
+		background-color: #240ea2;
+		grid-area: 6 / 1 / 8 / 3;
+	}
+
+	.neo-item:nth-child(16) {
+		background-color: #fed26b;
+		grid-area: 3 / 11 / 6 / 12;
+	}
+
+	.neo-item:nth-child(17) {
+		background-color: #d1d1d1;
+		grid-area: 7 / 8 / 8 / 12;
+	}
+
+	.neo-item:nth-child(18) {
+		background-color: #df371e;
+		grid-area: 5 / 7 / 8 / 8;
+	}
+
+	.neo-item:nth-child(19) {
+		background-color: #18090e;
+		grid-area: 6 / 5 / 7 / 7;
+	}
+
+	.neo-item:nth-child(20) {
+		background-color: #d1d1d1;
+		grid-area: 6 / 3 / 8 / 5;
+	}
+
+	.neo-item:nth-child(21) {
+		background-color: #1c1b1b;
+		grid-area: 7 / 5 / 8 / 7;
+	}
+
+	.neo-item:nth-child(22) {
+		background-color: #1c1b1b;
+		grid-area: 6 / 9 / 7 / 12;
 	}
 }
